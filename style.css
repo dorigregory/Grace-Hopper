@@ -1,0 +1,7 @@
+.button { background-color: navy}
+a:link {
+    color:whitesmoke;
+    padding: 15px 20px;
+    text-align: center; 
+}
+a:hover {color: red;}

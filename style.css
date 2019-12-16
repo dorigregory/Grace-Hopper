@@ -1,4 +1,8 @@
-.button { background-color: navy}
+.button {
+    background-color: darkgoldenrod; 
+    color: navy;
+    border-block-color: black;
+}
 a:link {
     color:whitesmoke;
     padding: 15px 20px;

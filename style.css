@@ -1,11 +1,12 @@
 .button {
-    background-color: darkgoldenrod; 
-    color: navy;
+    background-color: navy; 
     border-block-color: black;
 }
 a:link {
-    color:whitesmoke;
+    color:black;
     padding: 15px 20px;
     text-align: center; 
+    text-decoration-line: none;
+
 }
-a:hover {color: red;}
+a:hover {color: blue;}

@@ -1,12 +1,38 @@
+
+/* button */
 .button {
     background-color: navy; 
     border-block-color: black;
 }
+/* link */
 a:link {
     color:black;
     padding: 15px 20px;
     text-align: center; 
     text-decoration-line: none;
-
 }
-a:hover {color: blue;}
+a:hover {
+    color: blue;
+}
+
+/* images */
+.computer{
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #642580;
+    background-size: cover;
+    min-height: 100%;
+    background-attachment: fixed;
+}
+.computer {
+    background-image: url("images/computer.png")
+}
+
+/* text */
+.caption {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align:center;
+}

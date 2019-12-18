@@ -1,7 +1,7 @@
 
 /* button */
 .button {
-    background-color: navy; 
+    background-color: burlywood; 
     border-block-color: black;
 }
 /* link */
@@ -16,17 +16,20 @@ a:hover {
 }
 
 /* images */
-.computer{
+.computer, .navy{
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #642580;
     background-size: cover;
-    min-height: 100%;
+    min-height: 75%;
     background-attachment: fixed;
 }
 .computer {
-    background-image: url("images/computer.png")
+    background-image: url("images/computer.png");
+}
+.navy {
+    background-image: url("images/Inservice.png")
 }
 
 /* text */
@@ -35,4 +38,9 @@ a:hover {
     top: 40%;
     width: 100%;
     text-align:center;
+}
+.textSection {
+    position: relative;
+    font-size: medium;
+    background-color: aquamarine;
 }

@@ -27,7 +27,7 @@ a:hover {
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #1c3894;
+    background-color: rgb(106, 187, 241);
     background-size: contain;
     min-height: 75%;
     background-attachment: fixed;
@@ -57,14 +57,21 @@ a:hover {
     width: 100%;
     text-align:center;
 }
-.textSection, .title {
+.textSection1, .textSection2 {
+      padding: 50px 80px;
+}
+.textSection1 {
+    color: aliceblue;
     position: relative;
-    background-color: rgb(36, 58, 156);
+    background-color: rgb(106, 187, 241);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.textSection {
+.textSection2{
     color: aliceblue;
-    padding: 50px 80px;
-
+    position: relative;
+    background-color: tomato;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
 /* quiz */

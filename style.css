@@ -14,33 +14,51 @@ a:link {
 a:hover {
     color: blue;
 }
+.head {
+    background-color: rgb(40, 40, 141);
+}
 
 /* images */
-.computer, .navy{
+.computer, .navy, .education, .pastgrace, .teaching{
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #642580;
-    background-size: cover;
+    background-color: #1c3894;
+    background-size: contain;
     min-height: 75%;
     background-attachment: fixed;
 }
 .computer {
     background-image: url("images/computer.png");
 }
+.education {
+    background-image: url("images/graceschool.png");
+}
 .navy {
     background-image: url("images/Inservice.png")
 }
+.pastgrace{
+    background-image: url("images/newyork.png")
+}
+.teaching{ 
+    background-image: url("images/teaching.png")
+}
+
 
 /* text */
 .caption {
     position: absolute;
+    font-style: oblique;
     top: 40%;
     width: 100%;
     text-align:center;
 }
-.textSection {
+.textSection, .title {
     position: relative;
-    font-size: medium;
-    background-color: aquamarine;
+    background-color: rgb(36, 58, 156);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textSection {
+    color: aliceblue;
+
 }

@@ -3,6 +3,9 @@
 .button {
     background-color: burlywood; 
     border-block-color: black;
+    padding: 6px 5px;
+    border-radius: 8px;
+    margin: 4px 2px;
 }
 /* link */
 a:link {
@@ -10,6 +13,7 @@ a:link {
     padding: 15px 20px;
     text-align: center; 
     text-decoration-line: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 a:hover {
     color: blue;
@@ -60,5 +64,7 @@ a:hover {
 }
 .textSection {
     color: aliceblue;
+    padding: 50px 80px;
 
 }
+/* quiz */

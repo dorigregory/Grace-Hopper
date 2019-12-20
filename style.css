@@ -1,12 +1,4 @@
 
-/* button */
-.button {
-    background-color: burlywood; 
-    border-block-color: black;
-    padding: 6px 5px;
-    border-radius: 8px;
-    margin: 4px 2px;
-}
 /* link */
 a:link {
     color:black;
@@ -18,9 +10,7 @@ a:link {
 a:hover {
     color: blue;
 }
-.head {
-    background-color: rgb(40, 40, 141);
-}
+
 
 /* images */
 .computer, .navy, .education, .pastgrace, .teaching{
@@ -47,15 +37,20 @@ a:hover {
 .teaching{ 
     background-image: url("images/teaching.png")
 }
+.head {
+    background-color: rgb(106, 187, 241);
+}
 
 
 /* text */
 .caption {
+    color: whitesmoke;
+    outline-color: black;
     position: absolute;
     font-style: oblique;
     top: 40%;
     width: 100%;
-    text-align:center;
+    text-align: unset
 }
 .textSection1, .textSection2 {
       padding: 50px 80px;
@@ -71,6 +66,9 @@ a:hover {
     position: relative;
     background-color: tomato;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.textSection3{
+    font-family: cursive;
 }
 
 

@@ -1,4 +1,19 @@
 
+/* quizbutton */
+.quizButton{ 
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(44, 153, 148);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    display: inline-block;
+}
+.question{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
 /* link */
 a:link {
     color:black;
@@ -71,7 +86,7 @@ a:hover {
     font-family: cursive;
 }
 .CC {
-    text-indent:5in;
+    text-align: right;
     word-spacing:3px;
 }
 
